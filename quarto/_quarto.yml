@@ -1,3 +1,13 @@
 project:
   type: website
   output-dir: site
+
+execute:
+  enabled: true
+
+metadata-files:
+  - _quarto.yml
+
+languages:
+  python:
+    engine: "python"
