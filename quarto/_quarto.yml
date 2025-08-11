@@ -3,12 +3,20 @@ project:
   output-dir: site
 
 website:
-  title: "Henlo Wonde"
+  title: "Dawith Lim"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - plots.qmd
+      - href: plots.qmd
+        text: Portfolio
+    right:
+      - icon: github
+        href: https://github.com/MangledPotat0
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mlem
+      - text: "Scholar"
+        href: https://scholar.google.com/citations?hl=en&user=afpmAQMAAAAJ
 
 format:
   html:
