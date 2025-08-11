@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Dashboard test"
 format: dashboard
 execute:
   enabled: true
