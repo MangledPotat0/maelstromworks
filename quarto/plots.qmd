@@ -1,0 +1,14 @@
+---
+title: "Hello World"
+format: dashboard
+execute:
+  enabled: true
+  echo: false
+---
+
+``` {python}
+import main
+
+main.main()
+
+```

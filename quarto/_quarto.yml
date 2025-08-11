@@ -2,6 +2,19 @@ project:
   type: website
   output-dir: site
 
+website:
+  title: "Henlo Wonde"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - plots.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
 execute:
   enabled: true
 

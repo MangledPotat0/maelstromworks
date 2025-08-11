@@ -1,0 +1,15 @@
+services:
+  mworks-cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    restart: unless-stopped
+    command: tunnel run mworks
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+      - TZ=America/New_York
+    networks:
+      - mworks
+
+networks:
+  mworks:
+    external: true

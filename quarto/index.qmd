@@ -1,14 +1,15 @@
 ---
-title: "Plot demo"
+title: "Henlo Wonde"
 format: html
 execute:
   enabled: true
   echo: false
 ---
 
-``` {python}
-import main
+Hello visitor,
 
-main.main()
+This site is currently under construction. It used to be a handful of static
+html documents on GitLab, but I am trying to turn it into a nice self-hosted
+portfolio. In the mean time, please find me on Linkedin instead.
 
-```
+Have a nice day!
